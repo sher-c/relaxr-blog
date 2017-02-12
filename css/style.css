@@ -1,0 +1,193 @@
+/* '*'means all */
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f0efef;
+}
+
+.top {
+  padding: 2.5rem;
+}
+
+h1{
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.wrapper  {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phrase {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+/*try to change this to display flex but flex u need to change it to the parent*/
+.top-right ul li {
+    padding: 0 1rem;
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.middle {
+  display: flex;
+  padding: 3rem 3rem 7rem 0;
+}
+
+.chapter {
+  width: 700px;
+}
+
+.paragraph h2 {
+  padding: 0 0 1rem 0;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.paragraph p1 {
+  font-weight: 300;
+  font-size: 24px;
+  color: #606161;
+}
+
+.paragraph span{
+  font-size: 70px;
+  font-weight: 600;
+  float: left;
+  padding-right: 0.5rem;
+  color: #606161;
+}
+
+.paragraph h3 {
+  padding: 2rem;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: right;
+}
+
+.paragraph h4 {
+  padding: 2rem 0 1rem 0;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.border {
+  border-color: #033048;
+}
+
+.sidebar {
+  width: 240px;
+  padding-left: 20px;
+}
+
+.sidebar h3 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.sidebar ul {
+  padding: 1rem 0 2rem 0;
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.blog1 {
+  width: 100%;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.sidebar p1 {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.sidebar p2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.addunit {
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+  top: 3rem;
+  padding: 2rem 0 16rem 0;
+  text-align: center;
+}
+
+
+.call-to-action {
+width: 100%;
+min-height: 10rem;
+text-align: center;
+display: flex;
+align-items: center;
+
+}
+
+.call-to-action button {
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 12px 0;
+  width: 250px;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.end {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+footer h5 {
+  font-size: 24px;
+  font-weight: 800;
+  padding: 2rem;
+}
+
+.tweet {
+  height: 30px;
+  width: 40px;
+  padding-right: 0.5rem;
+}
+
+.face {
+  height: 30px;
+  width: 20px;
+  padding-left: 0.5rem;
+}
+
+.pictures {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+footer h6 {
+  font-size: 9px;
+  font-weight: 600;
+  padding: 1rem 0 2rem 0;
+}
